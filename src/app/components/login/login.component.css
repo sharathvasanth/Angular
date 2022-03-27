@@ -1,0 +1,65 @@
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  label{
+      width: 25%;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #ecc203;
+    color: black;
+    padding: 14px 20px;
+    margin-left: 300px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    /* border: 1px solid #888; */
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+
+  

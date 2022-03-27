@@ -1,0 +1,17 @@
+<form class="modal-content animate" method="post" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div class="imgcontainer">
+      <h2>Social Grove</h2>
+    </div>
+
+    <div class="container">
+    <div>
+      <label for="uname"><b>Email Address-</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required  formControlName="email">
+    </div>
+    <div>
+      <label for="psw"><b>Password-</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required formControlName="password">
+    </div>  
+      <button type="submit">Login</button>
+    </div>
+</form>

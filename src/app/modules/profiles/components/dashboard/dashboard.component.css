@@ -1,0 +1,37 @@
+.content{
+    background: rgb(0, 0, 0);
+}
+.cards{
+    
+}
+.example-card {
+    max-width: 400px;
+    margin: 10px;
+    background: white;
+  }
+
+
+.Avtar{
+    height: 148px;
+    width: 128px;
+}
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+}
+.part1{
+    width: 35%;
+}
+.part2{
+    width: 65%;
+}
+.btn{
+    background-color: #ecc203;
+    color: black;
+    padding: 10px 10px;
+    margin-left: 35px;
+    width: 50%;
+  }
